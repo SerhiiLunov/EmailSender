@@ -13,7 +13,7 @@ public class EmailTestingController {
     }
     @RequestMapping("/send-test-email")
     public String sentEmailTest(){
-        emailService.sendEmail("lunevlife@gmail.com", "Hello", "Hello, Serhii");
+        emailService.sendEmail("lunevlife@gmail.com", "Hello", "Hello, everyone");
         return "Email send test successfully";
     }
 }
